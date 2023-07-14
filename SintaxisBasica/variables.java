@@ -7,7 +7,7 @@ declarar una nueva variable, se debe especificar el tipo de la variable.
     
 
 */
-public class Main {
+public class variables {
     public static void main(String[] args) throws Exception {
         // Ejemplo de una declaración de varaible de tipo Entero
         int numero = 10;

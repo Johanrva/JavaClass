@@ -7,7 +7,7 @@ Una varaible que es global se puede usar en cualquier lugar dentro de la clase.
 Una variable local solo se puede usar dentro de un metodo y nada mas.
 
 */
-public class Main {
+public class variables_locales_y_globales {
     static int numero = 10; //Es una varible fuera del metodo main, pero dentro de la clase Main
     
     public static void main(String[] args) throws Exception {
@@ -18,7 +18,7 @@ public class Main {
         
         imprimir();
     }
-    public void imprimir(){
+    public static void imprimir(){
         System.out.println(palabra);//dara un error
         System.out.println(numero);// imprime 10
     }

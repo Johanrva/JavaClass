@@ -19,7 +19,7 @@ JAVA tiene varaios tipos de datos nativos, dentro de los que se encuentran
         - clases propias
         - clases de JAVA
 */
-public class Main {
+public class tipos_datos {
     
     public static void main(String[] args) throws Exception {
         

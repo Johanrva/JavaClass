@@ -6,7 +6,7 @@ Se debe tener presente el tipo de dato que se esta ingresando por teclado.
 
 Para imprimir se hace uso de la función System.out.println()
 */
-public class Main {
+public class Lectura_escritura {
     
     public static void main(String[] args) throws Exception {
         //declaración de variables
@@ -16,6 +16,9 @@ public class Main {
         System.out.println("Introduce un número entero: ");                                                       
         n1 = sc.nextInt();      //lee un entero por teclado
         
+        System.out.println("El número ingresado fue: ");                                                       
+        System.out.println(n1);                                                       
+
         
 
     }

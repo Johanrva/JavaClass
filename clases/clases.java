@@ -8,7 +8,7 @@ En Java, un objeto es básicamente una instancia de una clase
 
 
 */
-public class Main {
+public class clases {
     
     public static void main(String[] args) throws Exception {
     
@@ -22,8 +22,7 @@ public class Main {
 }
 
 //Le damos un nombre "MiClase" a la clase
-public class MiClase
-{
+class MiClase {
     //Atributos de la clase
     private String atributo1;
     private int atributo2;

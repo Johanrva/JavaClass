@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class condicionales {
     
     public static void main(String[] args) throws Exception {
         /*
@@ -43,10 +43,10 @@ public class Main {
             instrucción 5;
             instrucción 6;
         */
-        Scanner sc = new Scanner( System.in );
+        Scanner sc1 = new Scanner( System.in );
         System.out.print("Nota: ");
-        int nota = sc.nextInt();
-        if (nota >= 5){ 
+        int nota1 = sc.nextInt();
+        if (nota1 >= 5){ 
             System.out.println("Enhorabuena!!");
             System.out.println("Has aprobado");
         } else {
@@ -74,10 +74,10 @@ public class Main {
             
             instrucción 7;
         */
-        Scanner sc = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);
         int hora;
         System.out.print("Introduzca una hora (>= 0 y <= 23): ");                                                 
-        hora = sc.nextInt();
+        hora = sc2.nextInt();
         if (hora >= 0 && hora < 12) {
             System.out.println("Buenos días");
         } else if (hora >= 12 && hora < 21) {
@@ -88,7 +88,7 @@ public class Main {
             System.out.println("Hora no válida");
         }
         System.out.println("Hasta pronto!!!"); 
-    }
+    
      /* 
         switch
         Esta estructura de control se utiliza para seleccionar una de entre
@@ -115,10 +115,10 @@ public class Main {
             
             }
      */
-     int mes;
-        Scanner sc = new Scanner(System.in);
+        int mes;
+        Scanner sc3 = new Scanner(System.in);
         System.out.print("Introduzca un numero de mes: ");                                                        
-        mes = sc.nextInt();
+        mes = sc3.nextInt();
         switch (mes) {  //inicio del switch
                 case 1: System.out.println("ENERO");
                         break;
@@ -146,5 +146,5 @@ public class Main {
                          break;
                 default : System.out.println("Mes no válido");                        
         }  //fin del switch
-    
+    }
 }

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class ciclos {
     
     public static void main(String[] args) throws Exception {
         /*
@@ -74,5 +74,5 @@ public class Main {
             System.out.print(i + " ");
         }  //fin del for
         System.out.println("\nFin programa");   
-    
+    }
 }
