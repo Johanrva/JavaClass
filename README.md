@@ -1,2 +1,2 @@
 # JavaClass
-This is the repository about exercises of Java and spring of course Backend Todos a la U 
+In this was developed the activity 1 of Java exercises.
