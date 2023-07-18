@@ -1,4 +1,4 @@
 # JavaClass
-This is the repository about exercises of Java and spring of course Backend Todos a la U 
+This is branch is about development class exercises of Java and spring of course Backend Todos a la U 
 
 
