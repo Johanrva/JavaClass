@@ -31,7 +31,7 @@ class DoctorController {
     @GetMapping(GetDoctorById)
     fun getDoctorById(
         @PathVariable("id") id : Long
-    ): CreateDoctorResponse = doctorService.getDoctorById(id)
+    ): CreateDoctorResponse  = doctorService.getDoctorById(id)
     @PutMapping(UpdateDoctor)
     fun updateDoctor(
         @PathVariable("id") id : Long
